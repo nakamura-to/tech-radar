@@ -157,6 +157,7 @@ fun Entry.toJs(): String {
       "quadrant": $quadrant,
       "ring": $ring,
       "label": "$label",
+      "link": ${ if (link == "") "null" else "\"" + link + "\"" },
       "active": $active,
       "moved": $moved
     }"""
