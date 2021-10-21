@@ -19,7 +19,6 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: 11
-          cache: 'gradle'
 
       - name: Checkout
         uses: actions/checkout@v2
